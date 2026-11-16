@@ -1,0 +1,35 @@
+/* Phần bổ sung cho bản React (styles.css là bộ gốc từ bản đầu tiên). */
+.busy { display: block; }
+.tab { white-space: nowrap; }
+.tabs { flex-wrap: wrap; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid #9cc2ff; outline-offset: 2px; }
+
+.field input[type=password] { width: 100%; padding: 9px 12px; border: 1px solid #cfd6e4; border-radius: 9px; background: #fff; }
+.panel > textarea.json { width: 100%; padding: 10px 12px; border: 1px solid #cfd6e4; border-radius: 9px; resize: vertical; }
+textarea.prompt { min-height: 340px; margin-top: 14px; font-size: 13px; line-height: 1.5; }
+.tag { display: inline-block; font-size: .7rem; font-weight: 800; background: #fff1c9; color: #7a5a00; padding: 2px 9px; border-radius: 99px; vertical-align: middle; margin-left: 6px; }
+.addbox { background: #f6f8fc; border-radius: 12px; padding: 12px; margin-bottom: 12px; }
+.addbox textarea { width: 100%; padding: 9px 12px; border: 1px solid #cfd6e4; border-radius: 9px; }
+.addbox .tools { margin-bottom: 0; }
+label.btn { cursor: pointer; }
+
+/* Báo cáo: bấm vào học sinh để mở chi tiết */
+tr.clickable { cursor: pointer; }
+tr.clickable:hover td, tr.clickable.open td { background: #f6f8fc; }
+tr.clickable:hover td:first-child, tr.clickable.open td:first-child { background: #f6f8fc; }
+.caret { display: inline-block; width: 14px; color: var(--muted); }
+.matrix tr.detail-row td { text-align: left; white-space: normal; background: #f6f8fc; padding: 14px; position: static; }
+.detail { display: grid; gap: 8px; max-width: 760px; }
+.detail-q { background: #fff; border: 1px solid var(--line); border-left: 5px solid var(--green); border-radius: 10px; padding: 8px 12px; }
+.detail-q.bad { border-left-color: var(--red); }
+.detail-q b, .detail-q span { display: block; }
+.detail-q span { color: var(--muted); font-size: .92em; }
+.detail-q span.wrong { color: #a02226; font-weight: 700; }
+
+@media (max-width: 640px) {
+  .a-head { padding: 10px 14px; gap: 10px; }
+  .a-main { padding: 14px; }
+  .qbar { grid-template-columns: 30px 1fr 44px; }
+  .qbar .meter { display: none; }
+  .linkbox input { display: none; }
+}

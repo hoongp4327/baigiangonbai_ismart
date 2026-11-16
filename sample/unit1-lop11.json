@@ -1,0 +1,109 @@
+{
+  "title": "Unit 1 - A long and healthy life",
+  "grade": 11,
+  "unit": "Unit 1",
+  "description": "Bài ôn tập về thức ăn, vận động và thói quen sống lành mạnh.",
+  "questions": [
+    {
+      "type": "matching",
+      "skill": "vocabulary",
+      "image": "🥗",
+      "prompt": "Nối mỗi từ hoặc cụm từ với nghĩa tiếng Việt.",
+      "pairs": [
+        {"left": "fresh fruits", "right": "trái cây tươi"},
+        {"left": "green vegetables", "right": "rau xanh"},
+        {"left": "eggs", "right": "trứng"},
+        {"left": "fish", "right": "cá"}
+      ],
+      "explanation": "Fresh fruits là trái cây tươi, green vegetables là rau xanh, eggs là trứng và fish là cá."
+    },
+    {
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "image": "🍽️",
+      "prompt": "Chọn cụm từ có nghĩa là “chế độ ăn cân bằng”.",
+      "options": ["bad habits", "balanced diet", "regular exercise"],
+      "answer": 1,
+      "explanation": "Balanced diet là chế độ ăn có các loại thực phẩm và lượng thức ăn phù hợp."
+    },
+    {
+      "type": "true_false",
+      "skill": "vocabulary",
+      "image": "🌙",
+      "prompt": "Đúng hay sai? “Stay up late” có nghĩa là “đi ngủ sớm”.",
+      "answer": false,
+      "explanation": "Stay up late nghĩa là thức khuya. Go to bed early mới có nghĩa là đi ngủ sớm."
+    },
+    {
+      "type": "fill_blank",
+      "skill": "grammar",
+      "image": "🥦",
+      "prompt": "Điền trợ động từ vào câu trả lời. Do you eat vegetables? – Yes, I ___.",
+      "answer": ["do"],
+      "explanation": "Câu hỏi bắt đầu bằng Do, nên câu trả lời ngắn là “Yes, I do.”"
+    },
+    {
+      "type": "multiple_choice",
+      "skill": "listening",
+      "image": "🎧",
+      "prompt": "Nghe và chọn những món người nói thích hơn.",
+      "audio_text": "I prefer fresh fruits and vegetables.",
+      "options": ["eggs and fish", "burgers and chips", "fresh fruits and vegetables"],
+      "answer": 2,
+      "explanation": "Sau “I prefer”, người nói nhắc đến trái cây tươi và rau củ."
+    },
+    {
+      "type": "multiple_choice",
+      "skill": "listening",
+      "image": "🎧",
+      "prompt": "Nghe và chọn thời gian thực hiện động tác.",
+      "audio_text": "First, do star jumps for twenty seconds.",
+      "options": ["20 giây", "10 giây", "30 giây"],
+      "answer": 0,
+      "explanation": "“Twenty seconds” nghĩa là 20 giây."
+    },
+    {
+      "type": "multiple_choice",
+      "skill": "reading",
+      "image": "👴",
+      "prompt": "Đọc đoạn văn. Ông của Nam tập thể dục khi nào?",
+      "passage": "Nam's grandfather does exercise every morning. He goes to bed early. He eats a lot of vegetables.",
+      "options": ["Trước khi đi ngủ", "Mỗi sáng", "Cuối tuần"],
+      "answer": 1,
+      "explanation": "Câu đầu có cụm “every morning”, nghĩa là mỗi sáng."
+    },
+    {
+      "type": "word_order",
+      "skill": "grammar",
+      "image": "🤝",
+      "prompt": "Sắp xếp các từ thành câu hỏi “Tôi có thể giúp bạn việc đó không?”.",
+      "answer": "Can I help you with that?",
+      "explanation": "Đặt Can trước I để tạo câu hỏi. Cụm “help you with that” nghĩa là giúp bạn việc đó."
+    },
+    {
+      "type": "fill_blank",
+      "skill": "writing",
+      "image": "👋",
+      "prompt": "Điền một từ để hoàn thành lời kết “Hẹn sớm gặp lại”. See you ___!",
+      "answer": ["soon"],
+      "explanation": "“See you soon!” là lời kết thân mật có nghĩa là “Hẹn sớm gặp lại!”."
+    },
+    {
+      "type": "fill_blank",
+      "skill": "grammar",
+      "image": "🩺",
+      "prompt": "Điền dạng đúng của động từ see. He ___ the doctor yesterday.",
+      "answer": ["saw"],
+      "explanation": "Yesterday nghĩa là hôm qua. Trong câu này, dạng quá khứ của see là saw."
+    },
+    {
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "image": "🍔",
+      "prompt": "Chọn cụm từ có nghĩa là “cắt giảm đồ ăn nhanh”.",
+      "options": ["eat a lot of fast food", "cut down on sugar", "cut down on fast food"],
+      "answer": 2,
+      "explanation": "Cut down on nghĩa là cắt giảm, còn fast food nghĩa là đồ ăn nhanh."
+    }
+  ]
+}
